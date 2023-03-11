@@ -88,7 +88,7 @@
       justify-content: center;
       align-items: center;
       width: 4rem;
-      hight: 4rem;
+      height: 4rem;
       background: transparent;
       border: .2rem solid var(--main-color);
       border-radius: 50%;
@@ -118,7 +118,6 @@
   .btn:hover{
       box-shadow: none;
   }
-
   .about{
       display: flex;
       justify-content: center;
@@ -169,7 +168,6 @@
     border-color:var(--main-color);
     transform: scale(1.02);
 }
-
 .services-box i{
     font-size: 12rem;
     color: var(--main-color);
@@ -181,7 +179,6 @@
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
-
 .login-form {
     background: #fff;
     width: 500px;
@@ -277,4 +274,35 @@
 }
 .login-form .action button:nth-child(2):hover {
     background: #3c4d6d;
+}
+.contact h2{
+    margin-bottom: 2rem;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box ,input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact form .input-box input{
+    width: 100%;
+}
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
 }

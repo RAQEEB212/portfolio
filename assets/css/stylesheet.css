@@ -47,10 +47,19 @@
       font-weight: 600;
       cursor: default;
   }
+.navbar{
+    display:flex;
+    justify-content:space-around;
+
+    align-items:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    flex: 50%;
+}
   .navbar a{
       font-size: 1.7rem;
       color: var(--text-color);
-      margin-left: 25rem;
+
       transition: .3s;
   }
   .navbar a:hover,

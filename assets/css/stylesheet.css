@@ -33,7 +33,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 90%;
       padding: 2rem 9%;
       background: var(--bg-color);
       display: flex;
@@ -55,11 +55,11 @@
     flex-direction:row;
     flex-wrap:wrap;
     flex: 50%;
+
 }
   .navbar a{
       font-size: 1.7rem;
       color: var(--text-color);
-
       transition: .3s;
   }
   .navbar a:hover,
